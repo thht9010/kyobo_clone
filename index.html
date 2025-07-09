@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>교보문고 대한민국 최고의 도서 쇼핑몰</title>
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <link rel="stylesheet" href="css/header.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="header">
+        <div class="layout">
+          <div class="header_top">
+            <div class="header_top_left">
+              <!-- 로고 및 검색폼 -->
+              <a href="#" class="logo">
+                <img
+                  src="https://contents.kyobobook.co.kr/resources/fo/images/common/ink/united/logo_book.svg"
+                  alt="교보문고"
+                />
+              </a>
+              <div class="search">
+                <form action="#" method="get">
+                  <input
+                    type="text"
+                    name="hi"
+                    id="ho"
+                    placeholder="황석희 번역가의 다정한 번역"
+                  />
+                  <button class="bt_search">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="none"
+                      viewBox="0 0 16 16"
+                      stroke="black"
+                    >
+                      <desc>검색 아이콘</desc>
+                      <g stroke="current" clip-path="url(#ico_search_svg__a)">
+                        <path
+                          d="M7 11.333a4.333 4.333 0 1 0 0-8.666 4.333 4.333 0 0 0 0 8.666Z"
+                        ></path>
+                        <path
+                          stroke-linecap="round"
+                          d="m10.333 10.333 3 3"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="ico_search_svg__a">
+                          <path fill="#fff" d="M0 0h16v16H0z"></path>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="heder_top_right">
+              <!-- 로그인 및 장바구니 -->
+              <ul class="header_info">
+                <li class="header_info_shopping">
+                  <a href="#" class="shopping">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="36"
+                      height="36"
+                      fill="none"
+                      viewBox="0 0 16 16"
+                      stroke="black"
+                    >
+                      <desc>장바구니 아이콘</desc>
+                      <g stroke="current" clip-path="url(#ico_cart_svg__a)">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          d="M2 2.667h1.123c.204.004.4.08.554.214.154.135.257.32.29.523l1.015 5.859a.9.9 0 0 0 .29.522.87.87 0 0 0 .554.215h6.448a.87.87 0 0 0 .537-.2.88.88 0 0 0 .298-.495l.86-4.123a.914.914 0 0 0-.448-1.035.9.9 0 0 0-.387-.104H6.667"
+                        ></path>
+                        <path
+                          stroke-miterlimit="10"
+                          d="M6.333 13.333a1 1 0 1 0 0-2 1 1 0 0 0 0 2ZM11.667 13.333a1 1 0 1 0 0-2 1 1 0 0 0 0 2Z"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="ico_cart_svg__a">
+                          <path fill="#fff" d="M0 0h16v16H0z"></path>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </li>
+                <li class="header_info_login">
+                  <a href="#" class="info_login">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="48"
+                      height="48"
+                      fill="none"
+                    >
+                      <desc>My 아이콘</desc>
+                      <path
+                        fill="url(#ico_my_svg__a)"
+                        d="M48 24C48 10.745 37.255 0 24 0S0 10.745 0 24s10.745 24 24 24 24-10.745 24-24"
+                      ></path>
+                      <path
+                        fill="#fff"
+                        d="M17.807 33a3.06 3.06 0 0 1-2.828-1.888 3.1 3.1 0 0 1-.233-1.17 5.354 5.354 0 0 1 5.355-5.355h7.801a5.354 5.354 0 0 1 5.352 5.354A3.06 3.06 0 0 1 30.196 33zm-1.378-3.059a1.38 1.38 0 0 0 1.378 1.377h12.39a1.38 1.38 0 0 0 1.377-1.377 3.677 3.677 0 0 0-3.67-3.672h-7.801a3.675 3.675 0 0 0-3.674 3.672m2.524-11.664a5.046 5.046 0 0 1 8.617-3.569 5.047 5.047 0 1 1-8.617 3.569m1.682 0a3.366 3.366 0 1 0 6.731.001 3.366 3.366 0 0 0-6.73-.001"
+                      ></path>
+                      <defs>
+                        <linearGradient
+                          id="ico_my_svg__a"
+                          x1="24"
+                          x2="24"
+                          y1="0"
+                          y2="48"
+                          gradientUnits="userSpaceOnUse"
+                        >
+                          <stop stop-color="#6BCB45"></stop>
+                          <stop offset="1" stop-color="#4DAC27"></stop>
+                        </linearGradient>
+                      </defs>
+                    </svg>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="header_bottom">
+            <div class="header_bottom_left">
+              <!-- 하단 리스트 -->
+              <div class="header_bottom_list">
+                <div class="main_button_list">
+                  <a href="#" class="main_button">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="24"
+                      height="24"
+                      fill="none"
+                      viewBox="0 0 16 16"
+                      stroke="black"
+                    >
+                      <g
+                        stroke="current"
+                        stroke-linecap="round"
+                        clip-path="url(#ico_menu_svg__a)"
+                      >
+                        <path
+                          d="M2.667 3.333h10.667M2.667 8h10.667M2.667 12.667h10.667"
+                        ></path>
+                      </g>
+                      <defs>
+                        <clipPath id="ico_menu_svg__a">
+                          <path fill="#fff" d="M0 0h16v16H0z"></path>
+                        </clipPath>
+                      </defs>
+                    </svg>
+                  </a>
+                </div>
+                <ul class="main_list">
+                  <li>
+                    <a href="#" class="main_list_point">상반기결산</a>
+                  </li>
+                  <li>
+                    <a href="#" class="main_list_point">도서전못간분</a>
+                  </li>
+                  <li>
+                    <a href="#">베스트</a>
+                  </li>
+                  <li>
+                    <a href="#">신상품</a>
+                  </li>
+                  <li>
+                    <a href="#">이벤트</a>
+                  </li>
+                  <li>
+                    <a href="#">바로펀딩</a>
+                  </li>
+                  <li>
+                    <a href="#">PICKS</a>
+                  </li>
+                  <li>
+                    <a href="#">CASTing</a>
+                  </li>
+                  <li>
+                    <a href="#">컬처라운지 </a>
+                  </li>
+                </ul>
+                <div class="main_list_more">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    fill="none"
+                  >
+                    <desc>더보기 활성화 전 아이콘</desc>
+                    <g clip-path="url(#ico_more_svg__a)">
+                      <path
+                        fill="#EAEAEA"
+                        d="M10 20c5.523 0 10-4.477 10-10S15.523 0 10 0 0 4.477 0 10s4.477 10 10 10"
+                      ></path>
+                      <path
+                        fill="#767676"
+                        d="M9.5 13.5v-3h-3v-1h3v-3h1v3h3v1h-3v3z"
+                      ></path>
+                    </g>
+                    <defs>
+                      <clipPath id="ico_more_svg__a">
+                        <path fill="#fff" d="M0 0h20v20H0z"></path>
+                      </clipPath>
+                    </defs>
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="header_bottom_right">
+              <!-- 이벤트 -->
+              <div class="header_bottom_event">
+                <ul class="header_event">
+                  <li>
+                    <a href="#">오늘의 미션</a>
+                  </li>
+                  <li>
+                    <a href="#">할인혜택</a>
+                  </li>
+                  <li>
+                    <a href="#">빵봉투 재입고!</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="main">
+        <div class="banner">
+          <div class="layout">
+            <div class="banner_wrap">
+              <!-- Swiper -->
+              <div class="swiper sw_banner">
+                <div class="swiper-wrapper">
+                  <!-- API 연동 -->
+                  <div class="banner_left">
+                    <div class="swiper-slide">
+                      <div class="banner_left_item">
+                        <a href="#" class="banner_left_slide">
+                          <img src="images/banner1.png" alt="책" />
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="banner_right"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="today_event">
+            <div class="today_event_left"></div>
+            <div class="today_event_right"></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer"></div>
+    </div>
+  </body>
+</html>

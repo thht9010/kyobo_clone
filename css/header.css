@@ -1,0 +1,139 @@
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+}
+.layout {
+  max-width: 1280px;
+  margin: 0 auto;
+  width: 100%;
+}
+.header_top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header_top_left {
+  position: relative;
+  display: flex;
+  gap: 27px;
+}
+.logo {
+}
+.search {
+  border: 1px solid #dbdbdb;
+  height: 48px;
+  width: 560px;
+
+  padding-left: 24px;
+  padding-right: 27px;
+  border-radius: 22px;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+}
+.search form {
+  flex: 1;
+
+  display: flex;
+  align-items: center;
+}
+#ho {
+  flex: 1;
+
+  border: none;
+  outline-style: none;
+}
+.bt_search {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+}
+.heder_top_right {
+}
+.header_info {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  list-style: none;
+}
+.header_info_shopping {
+}
+.shopping {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.header_info_login {
+  box-shadow: 0 5px 10px 0 rgba(77, 172, 39, 0.5);
+  cursor: pointer;
+}
+.info_login {
+}
+.header_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header_bottom_left {
+}
+.header_bottom_list {
+  display: flex;
+  align-items: center;
+}
+.main_button_list {
+  border: 1px solid #dbdbdb;
+  padding: 8px 11px;
+  border-radius: 30px;
+}
+.main_button {
+  display: flex;
+}
+.main_list {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  gap: 30px;
+
+  font-weight: 500;
+  font-size: 16px;
+  color: #595959;
+  list-style: none;
+}
+.main_list li {
+}
+.main_list li a {
+  text-decoration: none;
+
+  /* 이게 왜 생긴건지 모르겠음; */
+}
+
+.main_list_point {
+  color: #3c9a3c;
+  font-weight: 700;
+  font-size: 16px;
+}
+.main_list_more {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+  
+}
+.header_bottom_right {
+}
+.header_bottom_event {
+}
+.header_event {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+  font-size: 14px;
+  text-decoration: none;
+}
+.header_event li a {
+  text-decoration: none;
+}

@@ -1,0 +1,32 @@
+.banner {
+  position: relative;
+}
+.layout {
+}
+.banner_wrap {
+    position: relative;
+}
+.banner_slide {
+  display: flex;
+}
+.banner_left_slide {
+    
+}
+.banner_left {
+  position: relative;
+}
+.banner_left_item {
+  display: block;
+  border-radius: 15px;
+  overflow: hidden;
+
+  height: 345px;
+  border-radius: 15px;
+}
+.banner_left_item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner_right {
+}
